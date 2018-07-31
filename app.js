@@ -14,4 +14,5 @@ app.get('/', function (req, res) {
 
 app.listen(port, function () {
   console.log('HeadersReturn app listening on port ' + port);
+  console.log('Press Ctrl+C for stop');
 })
