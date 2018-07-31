@@ -14,6 +14,10 @@ npm start
 You can set the NODE_PORT environment variable at a port number that you want the application listen for.
 The default port is 3000
 
+```shell
+export NODE_PORT=3333
+```
+
 ## Update
 
 ```shell
