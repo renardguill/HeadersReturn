@@ -12,3 +12,11 @@ npm start
 ```
 
 You can set the NODE_PORT environment variable at a port number that you want the application listen for.
+
+## Update
+
+```shell
+cd HeadersReturn
+git pull
+npm install --upgrade
+```
