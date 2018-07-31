@@ -6,8 +6,16 @@
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renardguill/HeadersReturn.git"
+  },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {                                                           
+    "url": "https://github.com/renardguill/HeadersReturn/issues"      
+  },                                                                  
+  "homepage": "https://github.com/renardguill/HeadersReturn#readme",
   "dependencies": {
     "express": "^4.16.3"
   }
