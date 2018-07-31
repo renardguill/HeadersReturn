@@ -18,5 +18,5 @@ You can set the NODE_PORT environment variable at a port number that you want th
 ```shell
 cd HeadersReturn
 git pull
-npm install --upgrade
+npm update
 ```
