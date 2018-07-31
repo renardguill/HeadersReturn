@@ -1,8 +1,11 @@
 
 const express = require('express')
 const app = express()
+var morgan = require('morgan')
 
 const port = process.env.NODE_PORT || 3000;
+
+app.use(morgan('combined'))
 
 app.get('/', function (req, res) {
   res.setHeader('Content-Type', 'application/json');
